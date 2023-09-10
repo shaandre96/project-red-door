@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="px-16 py-8">
+    <div className="px-16 py-8 max-w-screen-lg mx-auto">
       <h2 className="text-xl font-bold my-8">
         We know that for Chinese Australians...
       </h2>

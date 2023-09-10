@@ -4,12 +4,12 @@ import React from "react";
 const Services = () => {
   return (
     <div className="flex flex-col bg-primary justify-center px-16">
-      <p className="text-center text-white my-12">
+      <p className="text-center text-white my-12 max-w-screen-lg mx-auto">
         <span className="font-bold">Chinese Australians have it hard.</span> Our
         mission is to help you understand what supports are out there, how you
         can help yourself or others, and what works well.
       </p>
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-3 gap-8 max-w-screen-lg mx-auto">
         <div className="flex flex-col justify-center text-center bg-white rounded py-8 px-4 mb-12">
           <div className="mx-auto rounded-full bg-primary w-[80px] h-[80px]"></div>
           <h3 className="text-lg text-primary font-semibold my-4">
